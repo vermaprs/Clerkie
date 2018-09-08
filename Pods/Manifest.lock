@@ -1,0 +1,62 @@
+PODS:
+  - ApiAI (0.7.2):
+    - ApiAI/AudioFileConverter (= 0.7.2)
+    - ApiAI/Core (= 0.7.2)
+    - ApiAI/Events (= 0.7.2)
+    - ApiAI/ResponseMapping (= 0.7.2)
+    - ApiAI/UIKit (= 0.7.2)
+    - ApiAI/UserEntities (= 0.7.2)
+    - ApiAI/VoiceFileRequest (= 0.7.2)
+    - ApiAI/VoiceRequest (= 0.7.2)
+  - ApiAI/AudioFileConverter (0.7.2):
+    - ApiAI/Core
+  - ApiAI/Core (0.7.2)
+  - ApiAI/Events (0.7.2):
+    - ApiAI/Core
+  - ApiAI/ResponseMapping (0.7.2):
+    - ApiAI/Core
+  - ApiAI/UIKit (0.7.2):
+    - ApiAI/Core
+    - ApiAI/VoiceRequest
+  - ApiAI/UserEntities (0.7.2):
+    - ApiAI/Core
+  - ApiAI/VoiceFileRequest (0.7.2):
+    - ApiAI/Core
+  - ApiAI/VoiceRequest (0.7.2):
+    - ApiAI/Core
+  - Bolts/Tasks (1.9.0)
+  - JSQMessagesViewController (7.3.5):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - Parse (1.17.1):
+    - Parse/Core (= 1.17.1)
+  - Parse/Core (1.17.1):
+    - Bolts/Tasks (~> 1.9)
+  - SBCardPopup (0.2.1)
+
+DEPENDENCIES:
+  - ApiAI
+  - JSQMessagesViewController
+  - Parse
+  - SBCardPopup
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ApiAI
+    - Bolts
+    - JSQMessagesViewController
+    - JSQSystemSoundPlayer
+    - Parse
+    - SBCardPopup
+
+SPEC CHECKSUMS:
+  ApiAI: d4b49d3736f33ce6f3ef66dc33c0e0fccb23579e
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  JSQMessagesViewController: 6587f56aedbcb150a8ba1d968e1ef58b1bc758b7
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  Parse: d3edaf8c7c722cb33cb83ba7821d015ae32d362d
+  SBCardPopup: faef88a31d5df9561e4d4b57cbd899e4f775d1cf
+
+PODFILE CHECKSUM: f1b43533ded911f646a1c53359d090a81672954b
+
+COCOAPODS: 1.5.3
