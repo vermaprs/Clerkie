@@ -52,9 +52,6 @@ class LoginViewController: UIViewController, UITextFieldDelegate{
     }
     
     func loadHomeScreen(){
-//        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-//        let loggedInViewController = storyBoard.instantiateViewController(withIdentifier: "LoggedIn") as! LoggedInViewController
-//        self.present(loggedInViewController, animated: true, completion: nil)
         performSegue(withIdentifier: "loginToLoggedIn", sender: LoginViewController.self)
     }
     

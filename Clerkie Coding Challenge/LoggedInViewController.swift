@@ -92,6 +92,11 @@ class LoggedInViewController: JSQMessagesViewController, UIImagePickerController
         
     }
     
+    @IBAction func goToDashboard(_ sender: Any) {
+        performSegue(withIdentifier: "chatToDashboard", sender: LoggedInViewController.self)
+    }
+    
+    
 }
 
 extension LoggedInViewController{

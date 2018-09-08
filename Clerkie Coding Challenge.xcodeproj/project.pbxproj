@@ -14,6 +14,7 @@
 		585A1888212FC758002F86D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585A1886212FC758002F86D7 /* LaunchScreen.storyboard */; };
 		585A189021309C5F002F86D7 /* RoundCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585A188F21309C5F002F86D7 /* RoundCorner.swift */; };
 		585A18922131F81C002F86D7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585A18912131F81C002F86D7 /* LoginViewController.swift */; };
+		585EE7452143A12F00816808 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585EE7442143A12F00816808 /* DashboardViewController.swift */; };
 		58F07EB72139F62900EAC4CB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F07EB62139F62900EAC4CB /* RegisterViewController.swift */; };
 		58F07EB9213A069E00EAC4CB /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F07EB8213A069E00EAC4CB /* LoggedInViewController.swift */; };
 		5B1B4EBDF931A412E2E8D45B /* Pods_Clerkie_Coding_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB137A61F11F7B13671121AB /* Pods_Clerkie_Coding_Challenge.framework */; };
@@ -30,6 +31,7 @@
 		585A1889212FC758002F86D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		585A188F21309C5F002F86D7 /* RoundCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCorner.swift; sourceTree = "<group>"; };
 		585A18912131F81C002F86D7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		585EE7442143A12F00816808 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		58F07EB62139F62900EAC4CB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		58F07EB8213A069E00EAC4CB /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
 		BB137A61F11F7B13671121AB /* Pods_Clerkie_Coding_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clerkie_Coding_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +78,7 @@
 				585A18912131F81C002F86D7 /* LoginViewController.swift */,
 				58F07EB8213A069E00EAC4CB /* LoggedInViewController.swift */,
 				585A188F21309C5F002F86D7 /* RoundCorner.swift */,
+				585EE7442143A12F00816808 /* DashboardViewController.swift */,
 				585A1884212FC758002F86D7 /* Assets.xcassets */,
 				585A1886212FC758002F86D7 /* LaunchScreen.storyboard */,
 				585A1889212FC758002F86D7 /* Info.plist */,
@@ -178,6 +181,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Clerkie Coding Challenge/Pods-Clerkie Coding Challenge-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ApiAI/ApiAI.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
 				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
@@ -187,6 +191,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ApiAI.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
@@ -223,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				585A18922131F81C002F86D7 /* LoginViewController.swift in Sources */,
+				585EE7452143A12F00816808 /* DashboardViewController.swift in Sources */,
 				58F07EB72139F62900EAC4CB /* RegisterViewController.swift in Sources */,
 				585A1880212FC757002F86D7 /* ViewController.swift in Sources */,
 				58F07EB9213A069E00EAC4CB /* LoggedInViewController.swift in Sources */,
@@ -376,7 +382,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZTAY79MW3;
 				INFOPLIST_FILE = "Clerkie Coding Challenge/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.prashant.Clerkie-Coding-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -394,7 +403,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZTAY79MW3;
 				INFOPLIST_FILE = "Clerkie Coding Challenge/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.prashant.Clerkie-Coding-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

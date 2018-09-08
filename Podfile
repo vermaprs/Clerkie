@@ -11,4 +11,5 @@ target 'Clerkie Coding Challenge' do
     pod 'SBCardPopup'
     pod 'JSQMessagesViewController'
     pod 'ApiAI'
+    pod 'Charts'
 end
